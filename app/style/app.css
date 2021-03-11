@@ -3,16 +3,23 @@
     background-color: black;
     /*background-size: cover;
     background-position-y: center;*/
-    height: 150px;
+    height: 350px;
     
 }
 
 .title{
-    text-align: center;
+    
     color: whitesmoke;
-
+    margin-bottom: auto;
+    margin-top: auto;
+    justify-content: center;
 }
 
 .block{
-    justify-content:center ;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
