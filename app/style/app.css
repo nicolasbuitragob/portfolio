@@ -1,11 +1,11 @@
 .banner{
-  background-image: url("../images/steffi-harms-Cj0tPzC5Uic-unsplash.jpg");
+  background-image: url("../images/IMG_20200912_090059.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   
-  height: 350px;  
+  height: 300px;  
 }
 
 .name, .title {
@@ -18,9 +18,33 @@
 .block {
   justify-content: center;
   text-align: center;
-  height: 350px;
+  height: 100%;
   margin-top: auto;
   margin-bottom: auto;
   background:rgba(0, 0,0, 0.5);
   position: relative;
+}
+
+.footer{
+  height: 200px;
+  background: black;
+  font-size: 2em;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.icons{
+  bottom: 0;
+  position: absolute;  
+
+}
+.fab{
+  color: white;
+}
+.skills{
+  height: 350px;
+}
+
+.projects{
+  height: 350px;
 }
