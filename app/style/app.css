@@ -1,25 +1,26 @@
 .banner{
-    /*background-image:url("../images/IMG_20200102_092646.jpg");*/
-    background-color: black;
-    /*background-size: cover;
-    background-position-y: center;*/
-    height: 350px;
-    
+  background-image: url("../images/steffi-harms-Cj0tPzC5Uic-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  
+  height: 350px;  
 }
 
-.title{
-    
-    color: whitesmoke;
-    margin-bottom: auto;
-    margin-top: auto;
-    justify-content: center;
+.name, .title {
+  color: white;
+  justify-content: center;
+  font-family: "lora", "serif";
 }
 
-.block{
-    justify-content: center;
-    text-align: center;
-    height: 350px;
-    margin-top: auto;
-    margin-bottom: auto;
 
+.block {
+  justify-content: center;
+  text-align: center;
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background:rgba(0, 0,0, 0.5);
+  position: relative;
 }
