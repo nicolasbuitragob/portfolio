@@ -35,16 +35,24 @@
 
 .icons{
   bottom: 0;
-  position: absolute;  
-
+  position: absolute; 
 }
 .fab{
   color: white;
 }
-.skills{
-  height: 350px;
-}
 
 .projects{
   height: 350px;
+  text-align: center;
+}
+
+.about{
+  height: 350px;
+}
+
+.skills{
+  height: auto;
+}
+.icon{
+  height:25%;
 }
