@@ -56,3 +56,21 @@
 .icon{
   width: 200px;
 }
+
+.deploy{
+  width:150px
+}
+  
+.nav-item, .navbar-brand{
+  font-family: "lora", "serif";
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+
+.icons .fab{
+  margin: 50px;
+}
