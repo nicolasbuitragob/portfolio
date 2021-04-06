@@ -1,3 +1,18 @@
+/* Nav Bar */
+.nav-item, .navbar-brand{
+  font-family: "lora", "serif";
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+/*-----------------------------*/
+
+
+/* Header  */
+
 .banner{
   background-image: url("../images/IMG_20200912_090059.jpg");
   background-position: center;
@@ -7,14 +22,11 @@
   
   height: 300px;  
 }
-
 .name, .title {
   color: white;
   justify-content: center;
   font-family: "lora", "serif";
 }
-
-
 .block {
   justify-content: center;
   text-align: center;
@@ -25,6 +37,50 @@
   position: relative;
 }
 
+/* --------------------------- */
+
+
+
+/*Skills */
+
+.skills{
+  height: auto;
+}
+.deploy{
+  width:140px
+}
+
+.analytics{
+  width: 140px;
+}
+.build{
+  width: 140px;
+}
+
+/* --------------------------------- */
+
+
+
+/* Projects*/
+.projects{
+  height: 350px;
+  text-align: center;
+}
+/* -----------------------------------*/
+
+
+/*About*/
+.about{
+  height: 350px;
+}
+/*------------------------------------*/
+
+
+
+
+
+
+/*Footer*/
 .footer{
   height: 200px;
   background: black;
@@ -32,7 +88,6 @@
   margin-bottom: 0;
   position: relative;
 }
-
 .icons{
   bottom: 0;
   position: absolute; 
@@ -40,37 +95,11 @@
 .fab{
   color: white;
 }
-
-.projects{
-  height: 350px;
-  text-align: center;
-}
-
-.about{
-  height: 350px;
-}
-
-.skills{
-  height: auto;
-}
-.icon{
-  width: 200px;
-}
-
-.deploy{
-  width:150px
-}
-  
-.nav-item, .navbar-brand{
-  font-family: "lora", "serif";
-  font-size: 1.2rem;
-  font-weight: bold;
-
-}
-.nav-item:hover{
-  text-decoration: underline;
-}
-
 .icons .fab{
   margin: 50px;
 }
+
+
+/*-------------------------------------*/
+
+

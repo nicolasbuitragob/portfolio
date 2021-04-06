@@ -20,8 +20,8 @@
    sodipodi:docname="data_analys_icon.svg"
    enable-background="new"
    inkscape:export-filename="/home/nicolas/Documents/Projects/Portfolio/app/Icons/data_analys_icon.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-xdpi="123.85523"
+   inkscape:export-ydpi="123.85523">
   <defs
      id="defs2">
     <pattern
@@ -329,7 +329,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.60047161"
-     inkscape:cx="267.47943"
+     inkscape:cx="-35.615666"
      inkscape:cy="571.10426"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -350,7 +350,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
