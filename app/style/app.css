@@ -45,13 +45,16 @@
 
 .skills{
   margin: 1.5em;
+  
 }
 
 .icon_skill{
-  font-size: 120px;
+  font-size: 7em;
 }
 
-
+.building_skill, .deploy_skill, .analysis_skill{
+  margin-top: 2.5em;
+}
 
 /* --------------------------------- */
 
@@ -59,18 +62,36 @@
 
 /* Projects*/
 .projects{
-  margin: 2.5em;
+
+  height: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  position: relative;
 }
+
+
 
 .prj_desc{
   font-size: 1.5rem;
 }
+
+.prj{ 
+  /* Center vertically */
+  position: absolute;
+  top: 50%;
+  margin-top: -25px; /* half this element's height */
+}
+
+
+
+
 /* -----------------------------------*/
 
 
 /*About*/
 .about{
-  height: 350px;
+  
 }
 /*------------------------------------*/
 
