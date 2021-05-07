@@ -43,7 +43,9 @@
 
 /*Skills */
 
-
+.skills{
+  margin: 1.5em;
+}
 
 .icon_skill{
   font-size: 120px;
@@ -57,8 +59,11 @@
 
 /* Projects*/
 .projects{
-  height: 350px;
-  text-align: center;
+  margin: 2.5em;
+}
+
+.prj_desc{
+  font-size: 1.5rem;
 }
 /* -----------------------------------*/
 
