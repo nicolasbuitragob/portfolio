@@ -43,19 +43,13 @@
 
 /*Skills */
 
-.skills{
-  height: auto;
-}
-.deploy{
-  width:140px
+
+
+.icon_skill{
+  font-size: 120px;
 }
 
-.analytics{
-  width: 140px;
-}
-.build{
-  width: 140px;
-}
+
 
 /* --------------------------------- */
 
