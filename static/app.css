@@ -163,8 +163,9 @@
 .icons .fab{
 
   margin-bottom: 50px;
-  margin-left: auto;
+  margin-left: 1.5rem;
   margin-right: auto;
+
   bottom: 0;
   position: relative
 }
