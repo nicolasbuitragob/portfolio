@@ -14,7 +14,7 @@
 /* Header  */
 
 .banner{
-  background-image: url("../images/IMG_20200912_090059.jpg");
+  background-image: url("/IMG_20200912_090059.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,9 +100,7 @@
 
 
 /*About*/
-.about{
-  
-}
+
 /*------------------------------------*/
 
 
