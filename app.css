@@ -14,7 +14,7 @@
 /* Header  */
 
 .banner{
-  background-image: url("/IMG_20200912_090059.jpg");
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
 /*Skills */
 
 .skills{
-  margin: 1.5em;
+  margin-top: 1.5em;
   
 }
 
