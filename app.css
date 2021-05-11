@@ -76,8 +76,9 @@
 
   height: 300px;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 1.5rem;
   position: relative;
+
 }
 
 
@@ -94,12 +95,19 @@
 }
 
 
-
-
 /* -----------------------------------*/
 
 
 /*About*/
+.about{
+  margin-bottom: 1.5rem;
+}
+
+.photo{
+  max-width: 60%;
+
+}
+
 
 /*------------------------------------*/
 
