@@ -1,8 +1,10 @@
 /* Nav Bar */
 .nav-item, .navbar-brand{
-  font-family: "lora", "serif";
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
+  
+
 
 }
 .nav-item:hover{
@@ -16,10 +18,17 @@
 .banner{
   height: 300px;  
 }
-.name, .title {
+.name{
   color: white;
   justify-content: center;
   font-family: "lora", "serif";
+}
+
+.title{
+  color:rgb(189, 185, 185);
+  justify-content: center;
+  font-family: "lora", "serif";
+  
 }
 .block {
   justify-content: center;
@@ -39,11 +48,13 @@
 
 .skills{
   margin-top: 1.5em;
+  margin-bottom: 2.5rem;
   
 }
 
 .icon_skill{
   font-size: 7em;
+  
 }
 
 .building_skill, .deploy_skill, .analysis_skill{
@@ -52,13 +63,20 @@
 
 .skill_exp {
   margin-top: 2.5em;
+  
 }
-
+.skills p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+}
 .class_title {
   margin-top: 1em;
-  font-size: 2.2em;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
+
+
 
 
 /* --------------------------------- */
@@ -72,22 +90,31 @@
   margin-top: auto;
   margin-bottom: 1.5rem;
   position: relative;
+  margin-bottom: 2.5rem;
+  
 
+}
+.projects a{
+  font-family: 'Lato', sans-serif;
+  
 }
 
 
 
 .prj_desc{
   font-size: 1.5rem;
-  font-family: "lora", "serif";
+  font-family: 'Lato', sans-serif;
+  
 }
 
 .prj{ 
   /* Center vertically */
   position: absolute;
-  top: 50%;
-  margin-top: -25px; /* half this element's height */
+  
+  top: 30%;
+  /* margin-top: -25px; */ /* half this element's height */
 }
+
 
 
 /* -----------------------------------*/
@@ -99,13 +126,15 @@
 }
 
 .photo{
-  max-width: 60%;
+  max-width: 65%;
 }
 
 .bio{
-  font-size: 1.5rem;
-  font-family: "lora", "serif";
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+  
 }
+
 
 
 /*------------------------------------*/
@@ -117,26 +146,36 @@
 
 /*Footer*/
 .footer{
-  height: 200px;
+  height: 250px;
   background: black;
   font-size: 2em;
   margin-bottom: 0;
   position: relative;
 }
 .icons{
-  bottom: 0;
+  bottom: 50%;
   position: absolute; 
-}
+} 
 .fab{
   color: white;
   
 }
 .icons .fab{
+
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  bottom: 0;
+  position: relative
 }
 
+.footer p{
+  color: gray;
+  font-size: 11px;
+  bottom: 0;
+  position: absolute;
+
+}
 
 /*-------------------------------------*/
 
