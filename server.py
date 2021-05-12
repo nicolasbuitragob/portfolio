@@ -1,3 +1,4 @@
+from os import EX_TEMPFAIL
 from flask import Flask,render_template, request, redirect
 app = Flask(__name__)
 
@@ -14,8 +15,15 @@ def page(page_name):
 def submit_form():
     if request.method == 'POST':
         data = request.form.to_dict()
-        print(data)
-
-        return redirect('contact.html')
+        write_to_file(data)
+        return redirect('thankyou.html')
     else:
-        return 'ups'
+        return  redirect('contact.html')
+
+def write_to_file(data):
+    with open('messages.txt',mode = 'a') as msg:
+        email = data['email']
+        first_name = data['name']
+        last_name = data['last name']
+        subject = data['message']
+        file = msg.write(f"\n{email},{first_name},{last_name},{last_name},{subject}")
