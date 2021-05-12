@@ -57,12 +57,9 @@
   bottom: 50%;
   position: absolute;
 }
-.fab{
-  color: white;
 
-}
 .icons .fab{
-
+  color: white;
   margin-bottom: 50px;
   margin-left: 1.5rem;
   margin-right: auto;
