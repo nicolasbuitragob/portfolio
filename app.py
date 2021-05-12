@@ -1,6 +1,7 @@
 from os import EX_TEMPFAIL
 from flask import Flask,render_template, request, redirect
-app = Flask(__name__)
+a
+pp = Flask(__name__)
 
 
 @app.route('/')

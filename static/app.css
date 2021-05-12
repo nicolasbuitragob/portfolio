@@ -1,60 +1,14 @@
-/* Nav Bar */
-.nav-item, .navbar-brand{
-  font-size: 1.3rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  
-
-
-}
-.nav-item:hover{
-  text-decoration: underline;
-}
-/*-----------------------------*/
-
-
-/* Header  */
-
-.banner{
-  height: 300px;  
-}
-.name{
-  color: white;
-  justify-content: center;
-  font-family: "lora", "serif";
-}
-
-.title{
-  color:rgb(189, 185, 185);
-  justify-content: center;
-  font-family: "lora", "serif";
-  
-}
-.block {
-  justify-content: center;
-  text-align: center;
-  height: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  background-color: black;
-  position: relative;
-}
-
-/* --------------------------- */
-
-
-
 /*Skills */
 
 .skills{
   margin-top: 1.5em;
   margin-bottom: 2.5rem;
-  
+
 }
 
 .icon_skill{
   font-size: 7em;
-  
+
 }
 
 .building_skill, .deploy_skill, .analysis_skill{
@@ -63,7 +17,7 @@
 
 .skill_exp {
   margin-top: 2.5em;
-  
+
 }
 .skills p{
   font-family: 'Lato', sans-serif;
@@ -75,9 +29,6 @@
   font-weight: bold;
   font-family: 'Lato', sans-serif;
 }
-
-
-
 
 /* --------------------------------- */
 
@@ -91,12 +42,12 @@
   margin-bottom: 1.5rem;
   position: relative;
   margin-bottom: 2.5rem;
-  
+
 
 }
 .projects a{
   font-family: 'Lato', sans-serif;
-  
+
 }
 
 
@@ -104,13 +55,13 @@
 .prj_desc{
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
-  
+
 }
 
-.prj{ 
+.prj{
   /* Center vertically */
   position: absolute;
-  
+
   top: 30%;
   /* margin-top: -25px; */ /* half this element's height */
 }
@@ -133,52 +84,8 @@
   font-size: 1.4rem;
   font-family: 'Lato', sans-serif;
   margin-top: 1.5rem;
-  
 }
 
 
 
 /*------------------------------------*/
-
-
-
-
-
-
-/*Footer*/
-.footer{
-  height: 250px;
-  background: black;
-  font-size: 2em;
-  margin-bottom: 0;
-  position: relative;
-}
-.icons{
-  bottom: 50%;
-  position: absolute; 
-} 
-.fab{
-  color: white;
-  
-}
-.icons .fab{
-
-  margin-bottom: 50px;
-  margin-left: 1.5rem;
-  margin-right: auto;
-
-  bottom: 0;
-  position: relative
-}
-
-.footer p{
-  color: gray;
-  font-size: 11px;
-  bottom: 0;
-  position: absolute;
-
-}
-
-/*-------------------------------------*/
-
-
