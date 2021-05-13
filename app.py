@@ -1,7 +1,15 @@
 from os import EX_TEMPFAIL
 from flask import Flask,render_template, request, redirect
-import csv
+from flask_pymongo import PyMongo
+
+mongo = PyMongo()
 app = Flask(__name__)
+
+
+
+app.config["MONGO_URI"] = 'mongodb+srv://nicolas:G4XL72skWpJFsnS@portfoliocluster.3cukj.mongodb.net/portfolio?retryWrites=true&w=majority'
+
+mongo.init_app(app)
 
 
 @app.route('/')
@@ -14,18 +22,9 @@ def page(page_name):
 
 @app.route('/submit_form',methods = ['POST'])
 def submit_form():
-    if request.method == 'POST':
-        data =request.form.to_dict()
-        write_csv(data)
-        return redirect('message.html')
-    else:
-        return  redirect('contact.html')
+    contact = mongo.db.contactDB
 
-def write_csv(data):
-    with open('messages.csv',mode = 'a') as msg:
-        email = data['email']
-        last_name = data['last name']
-        first_name = data['name']
-        subject = data['message']
-        csv_write = csv.writer(msg,delimiter = ',',quotechar = "'",quoting = csv.QUOTE_MINIMAL)
-        csv_write.writerow([email,first_name,last_name,subject])
+    data = request.form.to_dict()
+    print(data)
+    contact.insert_one({'text':data,'complete':False})
+    return redirect('message.html')
