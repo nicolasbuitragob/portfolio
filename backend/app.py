@@ -5,8 +5,6 @@ from flask_pymongo import PyMongo
 mongo = PyMongo()
 app = Flask(__name__)
 
-
-
 app.config["MONGO_URI"] = 'mongodb+srv://nicolas:G4XL72skWpJFsnS@portfoliocluster.3cukj.mongodb.net/portfolio?retryWrites=true&w=majority'
 
 mongo.init_app(app)
