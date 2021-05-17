@@ -46,13 +46,54 @@
 
 .content{
   font-family: 'Lato', "sans-serif";
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .description{
-  margin-top: 1.25rem;
+  margin-top: 15%;
+  text-align: justify;
+  justify-content: center;
+  height: 100%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  position: relative;
+}
+.talk{
+  font-weight: bolder;
+}
+.user{
+  margin: 25px;
+  color:black;
 }
 
+.fab{
+  color: black;
+}
+.icn i{
+  font-size: 2rem;
+  margin-top: 10px;
+
+}
+
+.icn a{
+  text-decoration:none;
+}
+
+.find-me{
+  margin-left: 50px;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem
+}
+
+.contact{
+  /* text-align: justify; */
+  justify-content: center;
+  height: 100%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  position: relative;
+  margin-left: 15%
+}
 
 
 
