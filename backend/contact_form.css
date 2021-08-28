@@ -1,0 +1,23 @@
+.labels{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+.btn{
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem;
+}
+
+.icons_contact .fab{
+  color: black;
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  justify-content: center;
+}
+.contact{
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  margin-top: 3rem;
+}
