@@ -60,31 +60,73 @@
         </div>
       </div>
 
-<div class="banner">
-  <div class="d-flex align-items-middle flex-column block">
-      <h1 class="name"> Projects </h1>
-  </div>
-</div>
-
-
-
-<div class="prj container">
-  <div class="row">
-
-    <div class="col-sm-4">
-        <img src="images/redo_foto.JPG" class="photo img-fluid rounded mx-auto d-block">
-    </div>
-      <div class="col-sm-8">
-        <h2>My experience as an Omdena collaborator</h2>
-        <p>
-          I enrolled to collaborate in a project called 'Applying remote sensing
-          and computer vision for farming habitat classification'
-        </p>
+<div class = 'container'>
+    <div class = 'blog_post'>
+        <div class = 'title_black_'>
+            <h1>
+                Why AI for Good
+            </h1>
         </div>
 
-    </div>
+        <div class = 'body'>
+            <p >
 
-  </div>
+                AI is one of the most powerful tools we have today to create a better world for everyone. 
+                With software, we can scale and deliver products to everyone on the planet. 
+                Now, why just don't use the power of data and software to scale and create the great place the earth is but we do it for everyone in the world.  
+                We can solve the biggest problems that we, as humanity, are facing. Problems like biodiversity collapse, climate change, poverty, and hunger. 
+                Of course, machine learning is not a magic wound, none of these problems will be solved by using only software and data, but we have a chance to 
+                create products and services that get all of us to a much better quality of life. Data is everywhere, we have satellites to take pictures of the earth, 
+                IoT devices to take data from the environment, cameras to capture images, microphones to catch sounds, we have everything. All the knowledge is out there on the internet. 
+                we have incredible minds figuring out how to keep you in social media so we need much more engineers to start creating something that actually matters. 
+
+            </p>
+
+            <p>
+                AI for good is all about putting software and data together and making a positive impact on society. 
+                Solve problems that seem impossible to tackle, to make the life of a lot of people better, 
+                AI is a great tool to do awesome things. We can do better, we always can. 
+            </p>
+
+            <p>
+                Early this year I had the opportunity to collaborate with Omdena on one of their AI for good projects. It was an amazing experience not just because of the technical challenge 
+                but because I could share eight weeks with a group of amazing people from all over the world, people from different backgrounds, countries, and cultures.
+            </p>
+
+            <p>
+                The challenge was to create a dataset with the land cover classification of Ireland to allow the farmers to self-report their environmental impacts. 
+                The team decided to follow two different paths for the project, one was using a random forest model and structured data from pixels manually collected from the satellite images.
+                 The other approach was a U-net model to perform semantic segmentation on individual images. 
+                Each approach had different problems, at the end we pick the random forest model because the test metrics were better with that model.
+            </p>
+
+            <p>
+                I focused mainly on the data collection part for both approaches. I collected some big tiles from Ireland using USGS and used Google Earth Engine as data sources. 
+                Each tile had to be divided into small 128 x 128 pixels images to be suitable for the U-net model.
+                Also, I picked data points for the random forest model to create a CSV file of structured data containing multiple pixel values as training examples.  It was difficult to create those datasets especially because of cloud presence and the differences in resolutions between labeling images and satellite images. 
+                The former was 100m resolution per pixel and the latter 10m. Resampling was applied but it had not much effect on the final images. 
+            </p>
+
+            <p>
+                With the Random Forest model, we manage to achieve a 66% of average accuracy in the test set performing some feature engineering and hyperparameter tuning of the model. 
+                
+                It was a very difficult challenge, we had to overcome big problems but in the end, it was a good result 
+
+                This experience was great for me. Not just because it was a real-world end-to-end project but because I learned a lot not only by myself doing the things and research but mostly from the other collaborators, they were amazing all the time providing feedback, and building amazing tools to move forward during the project. It was my very first AI for good project, and it felt great during the whole time
+            </p>
+
+
+        </div>
+
+
+    </div>
+        
+</div>
+      
+
+
+
+
 
 
 
